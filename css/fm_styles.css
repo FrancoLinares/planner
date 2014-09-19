@@ -1,0 +1,71 @@
+body {
+	background: url("../imagenes/foto_web.jpg") no-repeat scroll center top rgb(130, 36, 133);
+	color:rgb(130, 36, 133);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+
+}
+div#menu{
+	color:white;
+
+}
+
+div#colleft{
+	float:left;
+	width:100%;
+	height:450px
+
+}
+
+div#content {
+    
+	margin: 0px auto;
+    box-shadow: 0px 0px 13px rgb(0, 0, 0);
+    position: relative;
+    width: 1000px;
+}
+
+div#main {
+	
+height: 600px;
+padding: 10px 20px;
+background: url("../imagenes/bg-index.jpg") no-repeat scroll 0% 0% transparent;
+	
+}
+div#header {
+background: url("../imagenes/bg-menu.jpg") no-repeat scroll center bottom rgb(252,16, 94);
+height: 100px;
+
+}
+
+div#redes-sociales {
+float: left;
+margin: 7px 1px 0px;
+background: url("../imagenes/bg-menu.jpg") no-repeat scroll center bottom transparent;
+height: 25px;
+width: 793px;
+	
+
+}
+
+.btn_activo {
+	background-color:transparent;
+	color:white;
+	cursor:pointer;
+	
+	font-size:20px;
+	font-weight:600;
+	padding-right:10px;
+	padding-left:10px;
+	margin-right:12px; 
+
+	font-family:"Comic Sans MS", cursive
+}
+
+@font-face {
+	
+  font-family: "eurofurenceregular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("eurof55-webfont.eot?#iefix") format("embedded-opentype"), url("http://funtime.com.ar/_res/site/css/eurof75-webfont.woff") format("woff"), url("eurof55-webfont.ttf") format("truetype"), url("eurof55-webfont.svg#eurofurenceregular") format("svg");
+}
